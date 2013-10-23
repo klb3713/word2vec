@@ -16,3 +16,19 @@
 *.exe
 *.out
 *.app
+word2vec
+word2phrase
+distance
+word-analogy
+compute-accuracy
+
+# Data
+text8
+vectors.bin
+voc
+
+# Project files
+word2vec.sublime-project
+word2vec.sublime-workspace
+.*
+
