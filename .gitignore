@@ -16,19 +16,15 @@
 *.exe
 *.out
 *.app
-word2vec
-word2phrase
-distance
-word-analogy
-compute-accuracy
+c/word2vec
+c/word2phrase
+c/distance
+c/word-analogy
+c/compute-accuracy
 
 # Data
-text8
-vectors.bin
-voc
+data/
 
 # Project files
-word2vec.sublime-project
-word2vec.sublime-workspace
+w2v.*
 .*
-

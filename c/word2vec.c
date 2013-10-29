@@ -463,7 +463,8 @@ void *TrainModelThread(void *id) {
 				if (last_word == -1) continue;
 				for (c = 0; c < layer1_size; c++) syn0[c + last_word * layer1_size] += neu1e[c];
 			}
-		} else {  //train skip-gram
+		}
+		else {  //train skip-gram
 			for (a = b; a < window * 2 + 1 - b; a++) if (a != window) {
 				c = sentence_position - window + a;
 				if (c < 0) continue;
