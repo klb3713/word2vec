@@ -21,6 +21,7 @@ c/word2phrase
 c/distance
 c/word-analogy
 c/compute-accuracy
+*.pyc
 
 # Data
 data/
